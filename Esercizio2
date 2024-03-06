@@ -1,0 +1,17 @@
+#include <stdio.h>
+int main () {
+
+int a, b, risultato;
+
+printf ("Inserisci il primo numero: \n");
+scanf ("%d", &a);
+
+printf ("Inserisci il secondo numero: \n");
+scanf ("%d", &b);
+
+risultato = a*b;
+
+printf ("Il prodotto tra i due numeri Ã¨: %2d\n", risultato);
+
+return 0;
+}
